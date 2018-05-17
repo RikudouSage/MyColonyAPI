@@ -1,0 +1,21 @@
+{
+  "name": "rikudou/my-colony-api",
+  "type": "library",
+  "description": "OOP wrapper around My Colony API",
+  "homepage": "https://github.com/RikudouSage/MyColonyAPI",
+  "keywords": [
+    "api",
+    "game",
+    "My Colony"
+  ],
+  "license": "WTFPL",
+  "require": {
+    "guzzlehttp/guzzle": "~6.0",
+    "php": ">=7.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "MyColony\\": "src/"
+    }
+  }
+}
