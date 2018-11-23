@@ -70,6 +70,10 @@ class GbtResourceNames {
 
   const PAINTING = "Painting";
 
+  const STARSHIP = "Starship";
+
+  const WHEEL = "Wheel";
+
   public static function findById(int $resourceId): string {
     /** @noinspection PhpUnhandledExceptionInspection */
     $nameConstants = (new \ReflectionClass(static::class))->getConstants();

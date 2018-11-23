@@ -4,6 +4,11 @@ namespace MyColony\Response\Collection;
 
 use MyColony\Response\Structures\ChildColonyInfo;
 
+/**
+ * @method ChildColonyInfo[] getData();
+ * @method ChildColonyInfo current();
+ * @method ChildColonyInfo offsetGet($offset);
+ */
 class ChildColoniesCollection extends Collection {
 
   /**

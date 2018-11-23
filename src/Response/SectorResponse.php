@@ -28,6 +28,10 @@ class SectorResponse extends Response {
     return $this->data["maptype"];
   }
 
+  public function getTheme(): string {
+    return $this->data["theme"];
+  }
+
   public function getXCoordinate(): int {
     return (int) $this->data["x"];
   }

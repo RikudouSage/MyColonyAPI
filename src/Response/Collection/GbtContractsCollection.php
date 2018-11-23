@@ -4,6 +4,11 @@ namespace MyColony\Response\Collection;
 
 use MyColony\Response\GbtContractResponse;
 
+/**
+ * @method GbtContractResponse[] getData();
+ * @method GbtContractResponse current();
+ * @method GbtContractResponse offsetGet($offset);
+ */
 class GbtContractsCollection extends Collection {
 
   /**

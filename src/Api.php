@@ -5,6 +5,7 @@ namespace MyColony;
 use MyColony\Request\ColonyInfoRequest;
 use MyColony\Request\GbtContractsRequest;
 use MyColony\Request\GbtPricesRequest;
+use MyColony\Request\LiveStreamsRequest;
 use MyColony\Request\SectorMapRequest;
 
 class Api {
@@ -23,6 +24,10 @@ class Api {
 
   public function getGbtContracts(): GbtContractsRequest {
     return new GbtContractsRequest();
+  }
+
+  public function getLiveStreams(): LiveStreamsRequest {
+    return new LiveStreamsRequest();
   }
 
 }

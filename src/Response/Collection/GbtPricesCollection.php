@@ -4,6 +4,11 @@ namespace MyColony\Response\Collection;
 
 use MyColony\Response\GbtPriceResponse;
 
+/**
+ * @method GbtPriceResponse[] getData();
+ * @method GbtPriceResponse current();
+ * @method GbtPriceResponse offsetGet($offset);
+ */
 class GbtPricesCollection extends Collection {
 
   protected $resourceIds = [];

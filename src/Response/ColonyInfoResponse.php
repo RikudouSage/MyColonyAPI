@@ -17,6 +17,14 @@ class ColonyInfoResponse extends Response {
     return $this->data["name"];
   }
 
+  public function getAccount(): string {
+    return $this->data["account"];
+  }
+
+  public function isRegion(): bool {
+    return !!$this->data["region"];
+  }
+
   public function getCivilization(): string {
     return $this->data["civilization"];
   }
